@@ -1,4 +1,0 @@
-#!/usr/bin/rarun2
-program=./triptych
-stdin="flag{theres_three_of_em}"
-stdout=
