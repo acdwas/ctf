@@ -1,3 +1,6 @@
+
+# python sp.py 2>/dev/null
+
 import sys
 import r2pipe
 import random
