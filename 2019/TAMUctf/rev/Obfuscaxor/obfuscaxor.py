@@ -4,7 +4,7 @@ import r2pipe
 charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_-+*{}'"
 
 r2 = r2pipe.open('./obfuscaxor')
-r2.cmd('e dbg.profile=yyy.rr2')
+r2.cmd('e dbg.profile=obfuscaxor.rr2')
 
 
 def fun():
@@ -16,7 +16,7 @@ def fun():
 
 
 def fun2(s):
-    with open('yyy.rr2', 'w') as f:
+    with open('obfuscaxor.rr2', 'w') as f:
         w = ''
         w = '#!/usr/bin/rarun2' + '\n'
         w += 'program=./obfuscaxor' + '\n'
