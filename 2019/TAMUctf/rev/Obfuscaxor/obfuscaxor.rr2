@@ -1,0 +1,4 @@
+#!/usr/bin/rarun2
+program=./obfuscaxor
+stdin="p3Asujmn9CEeCB3A"
+stdout=
