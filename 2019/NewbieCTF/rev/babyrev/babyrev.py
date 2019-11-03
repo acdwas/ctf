@@ -27,7 +27,7 @@ while i < 36:
         # for c in string.printable:
         flag[i] = c
         write_f(''.join(flag))
-        proc = subprocess.call(["babyrev.exe", "file.txt"])
+        subprocess.call(["babyrev.exe", "file.txt"])
         s = open_f()
         if ord(f2[i]) == ord(s[i]):
             # print(flag)
