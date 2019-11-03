@@ -1,9 +1,6 @@
 
 import subprocess
 import string
-import sys
-import time
-
 
 def write_f(s):
     with open('file.txt', 'w') as f:
