@@ -1,1 +1,2 @@
 
+![tekst alternatywny](./core.png)
