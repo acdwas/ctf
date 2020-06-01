@@ -1,7 +1,5 @@
 
 from pwn import *
-from leak_to_address import *
-import sys
 
 r = remote('chals20.cybercastors.com', 14425)
 libc = ELF('./libc6_2.31-0ubuntu9_amd64.so')    # https://libc.blukat.me/
