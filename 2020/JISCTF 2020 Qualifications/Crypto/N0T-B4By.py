@@ -40,25 +40,19 @@ s = Solver()
 
 a = [BitVec('a{}'.format(i), 128) for i in range(34)]
 key = BitVec('key', 128)
-
 s.add((ord('J') ^ key) ^ key*2 == data[0])
-
 s.check()
 m = s.model()
-
 key = m[key]
-
 print('KEY: ', key)
 
 s.reset()
-
 
 for i in range(34):
     s.add((a[i] ^ key) ^ key*2 == data[i])
 
 s.check()
 m = s.model()
-
 print('FLAG: ', ''.join(chr(m[a[i]].as_long()) for i in range(34)).strip())
 
 # KEY:  12428628501003826891951326754624
