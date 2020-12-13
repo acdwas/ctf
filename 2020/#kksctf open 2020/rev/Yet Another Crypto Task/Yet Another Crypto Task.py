@@ -1,5 +1,6 @@
 
 # Yet Another Crypto Task
+# kks{lcg_1s_n0t_v3ry_s3cur3}
 
 from z3 import *
 from pwn import *
