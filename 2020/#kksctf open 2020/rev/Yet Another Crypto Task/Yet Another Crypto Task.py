@@ -13,10 +13,14 @@ b = BitVec('b', 8)
 while True:
     r = remote('tasks.kksctf.ru', 30050)
     r.readline()
+    
     l = r.readline().decode().strip().split()
+    
     c = [BitVec('c{}'.format(i), 8) for i in range(len(l))]
+    
     for i in range(len(l)):
         s.add(c[i] > 0x20, c[i] < 0x7f)
+    
     x = ord('k') ^ int(l[0], 16)
 
     for i in range(1, len(l), 1):
