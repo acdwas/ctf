@@ -52,6 +52,16 @@ for i in range(30):
 s.check()
 m = s.model()
 
-# print([m[i] for i in range(30)])
+flag = {}
 
-print(a[20])
+for d in m.decls():
+    flag[int(d.name()[1:])] = m[d].as_long()
+
+w = ''
+
+for i in sorted(flag):
+    w += chr(flag[i])
+
+print(w)
+
+# X-MAS{N0is__g0_g3t_th3_points}
