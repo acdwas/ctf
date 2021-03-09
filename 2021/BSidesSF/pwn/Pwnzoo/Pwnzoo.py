@@ -20,5 +20,4 @@ r.sendline(b'1')
 
 print('\n', r.recvall().decode().strip())
 
-
-
+# CTF{2021_is_still_a_zoo}
