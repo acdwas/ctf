@@ -2,7 +2,6 @@
 # Kernel < 5.8
 # https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=122306117afe4ba202b5e57c61dfbeffc5c41387
 
-
 from pwn import *
 
 with open('chall.raw', 'rb') as f:
