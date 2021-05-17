@@ -20,3 +20,6 @@ print(bytes.fromhex(hex(int(flag_bit,2))[2:]).decode())
 
 # dctf{1_gu3ss_1t_wasnt_h1dden_w33l_enough}
 
+
+
+
