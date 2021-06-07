@@ -48,3 +48,7 @@ for i in range(len(key_new)):
     flag += chr(key_new[i] ^ int(text[i], 16))
 
 print(f'FLAG: {flag}')
+
+# KEY: [244, 177, 155, 24, 101, 233, 44, 85, 201, 49, 10, 192, 171, 79, 203, 233, 190, 130, 163, 58]
+# FLAG: SHELL{S4SKU3_UCH1H4}
+
