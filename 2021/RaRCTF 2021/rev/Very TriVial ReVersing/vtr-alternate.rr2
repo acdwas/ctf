@@ -1,0 +1,6 @@
+
+#!/usr/bin/rarun2
+program=./vtr-alternate
+stdin="$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+stdout=
+        
