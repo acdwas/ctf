@@ -61,7 +61,6 @@ for i in range(25):
     r.sendline(l[i][0].encode())
     r.recvuntil(f'Enter License Key for License #{i+1}:\n'.encode())
     r.sendline(l[i][1].encode())
-    r.readline()
 
 print(r.readall().decode())
 
