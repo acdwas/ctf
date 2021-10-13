@@ -16,7 +16,6 @@ def u64(data):
 def p64(num):
     return struct.pack("<Q", num)
 
-
 mu = Uc(UC_ARCH_X86, UC_MODE_64)
 cs = Cs(CS_ARCH_X86, CS_MODE_64)
 
@@ -52,7 +51,6 @@ def hook_code(mu, address, size, user_data):
         mu.mem_write(STACK_ADDR + 8, p64(r_rax))
 
 mu.hook_add(UC_HOOK_CODE, hook_code)
-
 mu.emu_start(0x400080, 0x401dab)
 
 print(FLAG)
