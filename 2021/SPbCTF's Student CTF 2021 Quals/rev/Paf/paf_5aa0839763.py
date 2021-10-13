@@ -57,3 +57,8 @@ mu.emu_start(0x400080, 0x401dab)
 
 print(FLAG)
 
+# SPBCTF{M47R35K4}
+
+
+
+
