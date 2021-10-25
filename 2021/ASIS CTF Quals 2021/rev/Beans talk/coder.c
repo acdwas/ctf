@@ -254,7 +254,7 @@ int main(void){
         }
         
         for(i=0;i<8;i++)
-            printf("%x", tmp[i]);
+            printf("%.2x", tmp[i]);
     }
     putchar('\n');
     return 0;
