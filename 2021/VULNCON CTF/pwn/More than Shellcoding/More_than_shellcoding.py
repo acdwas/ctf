@@ -1,6 +1,5 @@
 
 from pwn import *
-import sys
 
 r = process(['nasm', './shell.asm'])
 
