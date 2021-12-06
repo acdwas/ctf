@@ -1,6 +1,4 @@
 
-[My link](https://google.com/?target=_blank)
-
 # function main
 
 ![](./1.png)
