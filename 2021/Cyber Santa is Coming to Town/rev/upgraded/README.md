@@ -1,5 +1,5 @@
 
-<a href="https://google.com/" target="_blank">Hello, world!</a>
+[Go to this page](https://google.com/?target=_blank)
 
 # function main
 
