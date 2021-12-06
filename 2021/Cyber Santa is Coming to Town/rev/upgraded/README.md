@@ -1,5 +1,5 @@
 
-[Go to this page](https://google.com/?target=_blank)
+[My link](https://google.com/?target=_blank)
 
 # function main
 
