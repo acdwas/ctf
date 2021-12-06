@@ -1,6 +1,11 @@
 
+# function main
 
-![function main](./1.png)
+![](./1.png)
+
+# function encrypt
+
+![](./2.png)
 
 
 # rev_upgraded.c
@@ -50,10 +55,14 @@ int main(void) {
     return 0;
 }
 ```
-
+***
 **gcc rev_upgraded.c -lcrypto -o rev_upgraded**
 
-**HTB{h4rdc0d1ng_k3ys?r00k13_m15t4k3!}**
+***
+
+# **FLAG**
+
+**`HTB{h4rdc0d1ng_k3ys?r00k13_m15t4k3!}`**
 
 
 
