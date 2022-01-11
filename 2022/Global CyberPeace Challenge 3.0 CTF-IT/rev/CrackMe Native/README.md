@@ -1,5 +1,5 @@
 
-## [SOLVE](https://youtu.be/OzmC1oEMRpA) https://youtu.be/OzmC1oEMRpA
+## [SOLVE](https://youtu.be/cB0qaQrHU70) https://youtu.be/cB0qaQrHU70
 
 # checkPw(getCode(str));
 
