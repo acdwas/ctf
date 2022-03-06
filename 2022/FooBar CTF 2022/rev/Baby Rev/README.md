@@ -1,7 +1,7 @@
 
 # baby_rev.py
 
-```p
+```py
 from z3 import *
 
 s = Solver()
