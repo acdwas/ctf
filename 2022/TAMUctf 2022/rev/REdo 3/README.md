@@ -1,5 +1,5 @@
 
-## [SOLVER]() 
+## [SOLVER](https://youtu.be/MSHhlUNEF30) https://youtu.be/MSHhlUNEF30
 
 # ./pizza HOWDY 24
 
