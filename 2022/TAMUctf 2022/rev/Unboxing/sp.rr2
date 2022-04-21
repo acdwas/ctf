@@ -1,0 +1,4 @@
+#!/usr/bin/rarun2
+program=elf4
+stdin="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_="
+stdout=
