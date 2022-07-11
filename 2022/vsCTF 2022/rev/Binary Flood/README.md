@@ -37,7 +37,7 @@ with open('file.pdf', 'wb') as f:
 
 # file.pdf
 
-![PDF](./file.pdf)
+![PDF](./file.png)
 
 # FLAG
 
