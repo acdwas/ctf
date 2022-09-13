@@ -71,12 +71,17 @@ namespace test_enc
         }
     }
 }
-
+```
 
 ![](./4.png)
 
 
 ![](./5.png)
 
+# mv manifesto manifesto.pdf
 
-```
+# FLAG
+
+**`flag{Cyb3r_Pun4_!$_n0W1}`**
+
+
