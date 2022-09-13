@@ -8,7 +8,7 @@ sfextract.exe Conti.exe -o unpack
 ![](./1.png)
 
 
-# dnSpy-net-win64
+# dnSpy-net-win64 -> Conti.dll
 
 ![](./2.png)
 
