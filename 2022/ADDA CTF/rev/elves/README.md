@@ -4,6 +4,17 @@
 
 ## for i in {0..728}; do objdump -Mintel -d binary$i | grep cmp -B 1 >> file.txt; done
 
+# file.txt
+
+```
+  401019:	80 f2 16             	xor    dl,0x16
+  40101c:	80 fa 1c             	cmp    dl,0x1c
+  401019:	80 f2 31             	xor    dl,0x31
+  40101c:	80 fa 7d             	cmp    dl,0x7d
+  401019:	80 f2 0b             	xor    dl,0xb
+  40101c:	80 fa 64             	cmp    dl,0x64
+  ...
+```
 
 
 # solve.py
