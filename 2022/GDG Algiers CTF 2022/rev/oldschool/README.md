@@ -107,7 +107,7 @@ loc_17CF0:
     ret
 ```
 
-# nasm -felf64 oldschool.nasm -o oldschool.o
+# nasm -felf64 oldschool.nasm -o oldschool_fun.o
 
 # oldschool.c
 
@@ -128,7 +128,7 @@ int main(void){
 
 # gcc -o oldschool.o -c oldschool.c
 
-# gcc -o oldschool.o -c oldschool.c -no-pie
+# gcc oldschool_fun.o oldschool.o -o oldschool -no-pie
 
 # oldschool.py
 
