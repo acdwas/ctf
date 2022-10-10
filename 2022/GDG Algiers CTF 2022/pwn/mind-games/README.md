@@ -1,5 +1,5 @@
 
-# mind-games.c
+# mind-games_1.c
 
 ```c
 #include <stdio.h>
