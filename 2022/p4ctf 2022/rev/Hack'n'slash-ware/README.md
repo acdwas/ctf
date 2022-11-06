@@ -151,3 +151,10 @@ with open('p4_ctf.png', 'wb') as f:
     f.write(quack_data(l))
 ```
 
+# p4_ctf.png
+
+![](./p4_ctf.png)
+
+
+
+
