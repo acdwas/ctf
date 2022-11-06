@@ -38,7 +38,8 @@ int main(void){
     return 0;
 }
 
- 
+// hack  -> n = 0x6c7bd55985a8fb0991e07a947dd39d29
+// slash -> n = 0x7838f58b2ab7ca1e35a5a0d5371f3917
  
  
 
