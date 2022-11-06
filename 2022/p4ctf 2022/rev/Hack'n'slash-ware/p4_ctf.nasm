@@ -65,3 +65,7 @@ section .data
     tmp times   34  db  0x0a, 0x00
     hack    db  "hack  -> n = 0x", 0x00
     slash    db  "slash -> n = 0x", 0x00
+
+; hack  -> n = 0x6c7bd55985a8fb0991e07a947dd39d29
+; slash -> n = 0x7838f58b2ab7ca1e35a5a0d5371f3917
+
