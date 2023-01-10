@@ -233,6 +233,7 @@ rr.readline()
 rr.readline()
 rr.readline()
 rr.readline()
+rr.readline() # <-- add end competitions
 
 for j in range(68):
 
