@@ -31,10 +31,10 @@ with open('./ez-pz_xor_injection', 'wb') as f:
     f.write(bytes(l))
 ```
 
-![][./1.png]
+![](./1.png)
 
-![][./2.png]
+![](./2.png)
 
-![][./3.png]
+![](./3.png)
 
  
