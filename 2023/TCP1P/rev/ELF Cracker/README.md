@@ -50,7 +50,7 @@ with open('flag_encode', 'wb') as f:
 
 ### gdb ./flag_encode
 
-![](./9.png)
+![](./91.png)
 
 ![](./10.png)
 
