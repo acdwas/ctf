@@ -47,6 +47,8 @@ print(f'Password: {"".join(chr(m[a[i]].as_long()) for i in range(6))}')
 ```
 # Password: p4wR0d
 
+# solve_js.js
+
 ```js
 (function (_0x2884ac, _0x38f3eb) {
   const _0x137f7b = {
