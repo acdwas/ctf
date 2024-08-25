@@ -93,7 +93,7 @@ var n = module486.ref(o, 'users/' + e.user.uid + '/flag');
 
 ```js
 ...
-var n = module486.ref(o, 'users/' + e.user.uid + '/flag');
+var n=(0,A.ref)(o,"users/"+e.user.uid+'/flag');
 ...
 ```
 # and add after this code
