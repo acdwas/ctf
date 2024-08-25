@@ -99,7 +99,14 @@ var n = module486.ref(o, 'users/' + e.user.uid + '/flag');
 # and add after this code
 
 ```js
-console.log("ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss");(0, A.get)(n).then(function(snapshot) {if (snapshot.exists()) {console.log("Dane:", snapshot.val());} else {console.log("Brak danych pod podaną ścieżką.");}}).catch(function(e) {console.error("Błąd podczas pobierania danych:", e);});
+(0, A.get)(n).then(function(snapshot) {
+  if (snapshot.exists()) {
+    console.log("Dane:", snapshot.val());
+} else {
+    console.log("Brak danych pod podaną ścieżką.");
+}}).catch(function(e) {
+  console.error("Błąd podczas pobierania danych:", e);
+});
 ```
 
 ##### java -jar apktool_2.9.3.jar b CrackMe
