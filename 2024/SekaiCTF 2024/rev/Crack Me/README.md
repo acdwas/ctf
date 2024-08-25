@@ -39,7 +39,7 @@ exports.default = _;
 
 ...
 
-...javascript
+...
     e.validatePassword = function (e) {
       if (17 !== e.length) return false;
       var t = module700.default.enc.Utf8.parse(module456.default.KEY),
