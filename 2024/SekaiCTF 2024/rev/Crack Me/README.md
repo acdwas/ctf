@@ -15,7 +15,7 @@
 
 ##### cat 456.js 
 
-```
+```javascript
 var _ = {
   LOGIN: 'LOGIN',
   EMAIL_PLACEHOLDER: 'user@sekai.team',
@@ -31,7 +31,7 @@ exports.default = _;
 
 ##### cat 443.js
 
-```
+```javascript
 ...
      if ('admin@sekai.team' !== t.state.email || false === e.validatePassword(t.state.password))
         console.log('Not an admin account.');
@@ -39,7 +39,7 @@ exports.default = _;
 
 ...
 
-...
+...javascript
     e.validatePassword = function (e) {
       if (17 !== e.length) return false;
       var t = module700.default.enc.Utf8.parse(module456.default.KEY),
@@ -81,7 +81,7 @@ print(decrypted_password)
 
 ##### cat 443.js
 
-```js
+```javascript
 ...
 var n = module486.ref(o, 'users/' + e.user.uid + '/flag');
 ...
@@ -91,14 +91,14 @@ var n = module486.ref(o, 'users/' + e.user.uid + '/flag');
 
 # find
 
-```js
+```javascript
 ...
 var n=(0,A.ref)(o,"users/"+e.user.uid+'/flag');
 ...
 ```
 # and add after this code
 
-```js
+```javascript
 (0, A.get)(n).then(function(snapshot) {
   if (snapshot.exists()) {
     console.log("Dane:", snapshot.val());
