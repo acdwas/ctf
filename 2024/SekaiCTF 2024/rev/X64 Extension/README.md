@@ -5,6 +5,8 @@
 ## nasm -felf64 encode.nasm -o encode.o
 ## ld -s -o encode encode.o
 
+#### decode.nasm
+
 ```nasm
 bits 64
 
