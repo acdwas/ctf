@@ -112,7 +112,7 @@ with this knowledge we can retrieve this memory area using
 ```log
 savedata "C:\\Users\\kelle\\Downloads\\output.bin", 0x1F3CF230830, 0x11400
                                                        ^^^^^^
-                                                 ten adres się zmienia 
+                                                 this address is changing 
 ```
 
 
