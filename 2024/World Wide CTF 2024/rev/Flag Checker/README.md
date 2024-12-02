@@ -129,9 +129,6 @@ sub_140011172((int)Src, (int)v12, (int)Buffer, v4, Buf1, (__int64)Size);
 ```
 
 It decodes the flag using AES.
-
-![](./11.png)
-
 As we know, AES requires a key and an initialization vector (IV).
 
 ![](./12.png)
