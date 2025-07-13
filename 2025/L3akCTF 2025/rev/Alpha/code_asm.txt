@@ -1,0 +1,894 @@
+=> 0x0000555555555310:	movsx  ebx,al
+al j -> 9 (position in string)
+=> 0x0000555555555313:	movzx  eax,BYTE PTR [rbp-0x60]
+=> 0x0000555555555317:	movsx  r12d,al
+al a -> 0 (position in string)
+=> 0x000055555555531b:	movzx  eax,BYTE PTR [rbp-0x54]
+=> 0x000055555555531f:	movsx  edx,al
+al m -> 12 (position in string)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x53]
+=> 0x0000555555555326:	movsx  eax,al
+al n -> 13 (position in string)
+=> 0x0000555555555329:	mov    esi,edx
+=> 0x000055555555532b:	mov    edi,eax
+=> 0x000055555555532d:	call   0x55555555564a
+=> 0x0000555555555332:	mov    esi,r12d
+=> 0x0000555555555335:	mov    edi,eax
+=> 0x0000555555555337:	call   0x5555555556c8
+=> 0x000055555555533c:	mov    esi,ebx
+=> 0x000055555555533e:	mov    edi,eax
+=> 0x0000555555555340:	call   0x55555555553b
+=> 0x0000555555555345:	cmp    eax,0x1326
+=> 0x000055555555534a:	sete   al
+=> 0x000055555555534d:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555314:	and    eax,edx
+=> 0x0000555555555316:	test   eax,eax
+=> 0x0000555555555318:	setne  al
+=> 0x000055555555531b:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555531e:	movzx  eax,BYTE PTR [rbp-0x4c]
+=> 0x0000555555555322:	movsx  ebx,al
+al u -> 20 (position in string)
+=> 0x0000555555555325:	movzx  eax,BYTE PTR [rbp-0x4a]
+=> 0x0000555555555329:	movsx  r12d,al
+al w -> 22 (position in string)
+=> 0x000055555555532d:	movzx  eax,BYTE PTR [rbp-0x56]
+=> 0x0000555555555331:	movsx  edx,al
+al k -> 10 (position in string)
+=> 0x0000555555555334:	movzx  eax,BYTE PTR [rbp-0x52]
+=> 0x0000555555555338:	movsx  eax,al
+al o -> 14 (position in string)
+=> 0x000055555555533b:	mov    esi,edx
+=> 0x000055555555533d:	mov    edi,eax
+=> 0x000055555555533f:	call   0x55555555564a
+=> 0x0000555555555344:	mov    esi,r12d
+=> 0x0000555555555347:	mov    edi,eax
+=> 0x0000555555555349:	call   0x555555555401
+=> 0x000055555555534e:	mov    esi,ebx
+=> 0x0000555555555310:	mov    edi,eax
+=> 0x0000555555555312:	call   0x5555555556c8
+=> 0x0000555555555317:	cmp    eax,0xffffffc0
+=> 0x000055555555531a:	sete   al
+=> 0x000055555555531d:	movzx  edx,al
+=> 0x0000555555555320:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555324:	and    eax,edx
+=> 0x0000555555555326:	test   eax,eax
+=> 0x0000555555555328:	setne  al
+=> 0x000055555555532b:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555532e:	movzx  eax,BYTE PTR [rbp-0x5e]
+=> 0x0000555555555332:	movsx  ebx,al
+al c -> 2 (position in string)
+=> 0x0000555555555335:	movzx  eax,BYTE PTR [rbp-0x54]
+=> 0x0000555555555339:	movsx  r12d,al
+al m -> 12 (position in string)
+=> 0x000055555555533d:	movzx  eax,BYTE PTR [rbp-0x56]
+=> 0x0000555555555341:	movsx  edx,al
+al k -> 10 (position in string)
+=> 0x0000555555555344:	movzx  eax,BYTE PTR [rbp-0x59]
+=> 0x0000555555555348:	movsx  eax,al
+al h -> 7 (position in string)
+=> 0x000055555555534b:	mov    esi,edx
+=> 0x000055555555534d:	mov    edi,eax
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	call   0x5555555556c8
+=> 0x0000555555555315:	mov    esi,r12d
+=> 0x0000555555555318:	mov    edi,eax
+=> 0x000055555555531a:	call   0x555555555401
+=> 0x000055555555531f:	mov    esi,ebx
+=> 0x0000555555555321:	mov    edi,eax
+=> 0x0000555555555323:	call   0x555555555401
+=> 0x0000555555555328:	cmp    eax,0xffffffb9
+=> 0x000055555555532b:	sete   al
+=> 0x000055555555532e:	movzx  edx,al
+=> 0x0000555555555331:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555335:	and    eax,edx
+=> 0x0000555555555337:	test   eax,eax
+=> 0x0000555555555339:	setne  al
+=> 0x000055555555533c:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555533f:	movzx  eax,BYTE PTR [rbp-0x55]
+=> 0x0000555555555343:	movsx  ebx,al
+al l -> 11 (position in string)
+=> 0x0000555555555346:	movzx  eax,BYTE PTR [rbp-0x50]
+=> 0x000055555555534a:	movsx  r12d,al
+al q -> 16 (position in string)
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x59]
+=> 0x0000555555555314:	movsx  edx,al
+al h -> 7 (position in string)
+=> 0x0000555555555317:	movzx  eax,BYTE PTR [rbp-0x4c]
+=> 0x000055555555531b:	movsx  eax,al
+al u -> 20 (position in string)
+=> 0x000055555555531e:	mov    esi,edx
+=> 0x0000555555555320:	mov    edi,eax
+=> 0x0000555555555322:	call   0x5555555556c8
+=> 0x0000555555555327:	mov    esi,r12d
+=> 0x000055555555532a:	mov    edi,eax
+=> 0x000055555555532c:	call   0x5555555555b8
+=> 0x0000555555555331:	mov    esi,ebx
+=> 0x0000555555555333:	mov    edi,eax
+=> 0x0000555555555335:	call   0x55555555553b
+=> 0x000055555555533a:	cmp    eax,0x22e2
+=> 0x000055555555533f:	sete   al
+=> 0x0000555555555342:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555345:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555349:	and    eax,edx
+=> 0x000055555555534b:	test   eax,eax
+=> 0x000055555555534d:	setne  al
+=> 0x0000555555555310:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555313:	movzx  eax,BYTE PTR [rbp-0x59]
+=> 0x0000555555555317:	movsx  ebx,al
+al h -> 7 (position in string)
+=> 0x000055555555531a:	movzx  eax,BYTE PTR [rbp-0x51]
+=> 0x000055555555531e:	movsx  r12d,al
+al p -> 15 (position in string)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x58]
+=> 0x0000555555555326:	movsx  edx,al
+al i -> 8 (position in string)
+=> 0x0000555555555329:	movzx  eax,BYTE PTR [rbp-0x5f]
+=> 0x000055555555532d:	movsx  eax,al
+al b -> 1 (position in string)
+=> 0x0000555555555330:	mov    esi,edx
+=> 0x0000555555555332:	mov    edi,eax
+=> 0x0000555555555334:	call   0x55555555553b
+=> 0x0000555555555339:	mov    esi,r12d
+=> 0x000055555555533c:	mov    edi,eax
+=> 0x000055555555533e:	call   0x5555555556c8
+=> 0x0000555555555343:	mov    esi,ebx
+=> 0x0000555555555345:	mov    edi,eax
+=> 0x0000555555555347:	call   0x55555555553b
+=> 0x000055555555534c:	nop
+=> 0x000055555555534d:	nop
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	cmp    eax,0x44126
+=> 0x0000555555555315:	sete   al
+=> 0x0000555555555318:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555531b:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x000055555555531f:	and    eax,edx
+=> 0x0000555555555321:	test   eax,eax
+=> 0x0000555555555323:	setne  al
+=> 0x0000555555555326:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555329:	movzx  eax,BYTE PTR [rbp-0x4c]
+=> 0x000055555555532d:	movsx  ebx,al
+al u -> 20 (position in string)
+=> 0x0000555555555330:	movzx  eax,BYTE PTR [rbp-0x58]
+=> 0x0000555555555334:	movsx  r12d,al
+al i -> 8 (position in string)
+=> 0x0000555555555338:	movzx  eax,BYTE PTR [rbp-0x5f]
+=> 0x000055555555533c:	movsx  edx,al
+al b -> 1 (position in string)
+=> 0x000055555555533f:	movzx  eax,BYTE PTR [rbp-0x4a]
+=> 0x0000555555555343:	movsx  eax,al
+al w -> 22 (position in string)
+=> 0x0000555555555346:	mov    esi,edx
+=> 0x0000555555555348:	mov    edi,eax
+=> 0x000055555555534a:	call   0x5555555556c8
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	mov    esi,r12d
+=> 0x0000555555555313:	mov    edi,eax
+=> 0x0000555555555315:	call   0x5555555556c8
+=> 0x000055555555531a:	mov    esi,ebx
+=> 0x000055555555531c:	mov    edi,eax
+=> 0x000055555555531e:	call   0x55555555564a
+=> 0x0000555555555323:	cmp    eax,0x73
+=> 0x0000555555555326:	sete   al
+=> 0x0000555555555329:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555532c:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555330:	and    eax,edx
+=> 0x0000555555555332:	test   eax,eax
+=> 0x0000555555555334:	setne  al
+=> 0x0000555555555337:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555533a:	movzx  eax,BYTE PTR [rbp-0x5f]
+=> 0x000055555555533e:	movsx  ebx,al
+al b -> 1 (position in string)
+=> 0x0000555555555341:	movzx  eax,BYTE PTR [rbp-0x55]
+=> 0x0000555555555345:	movsx  r12d,al
+al l -> 11 (position in string)
+=> 0x0000555555555349:	movzx  eax,BYTE PTR [rbp-0x4c]
+=> 0x000055555555534d:	movsx  edx,al
+al u -> 20 (position in string)
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x4e]
+=> 0x0000555555555314:	movsx  eax,al
+al s -> 18 (position in string)
+=> 0x0000555555555317:	mov    esi,edx
+=> 0x0000555555555319:	mov    edi,eax
+=> 0x000055555555531b:	call   0x55555555564a
+=> 0x0000555555555320:	mov    esi,r12d
+=> 0x0000555555555323:	mov    edi,eax
+=> 0x0000555555555325:	call   0x555555555381
+=> 0x000055555555532a:	mov    esi,ebx
+=> 0x000055555555532c:	mov    edi,eax
+=> 0x000055555555532e:	call   0x5555555556c8
+=> 0x0000555555555333:	cmp    eax,0xe5
+=> 0x0000555555555338:	sete   al
+=> 0x000055555555533b:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555533e:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555342:	and    eax,edx
+=> 0x0000555555555344:	test   eax,eax
+=> 0x0000555555555346:	setne  al
+=> 0x0000555555555349:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555534c:	movzx  eax,BYTE PTR [rbp-0x4b]
+=> 0x0000555555555310:	movsx  ebx,al
+al v -> 21 (position in string)
+=> 0x0000555555555313:	movzx  eax,BYTE PTR [rbp-0x5c]
+=> 0x0000555555555317:	movsx  r12d,al
+al e -> 4 (position in string)
+=> 0x000055555555531b:	movzx  eax,BYTE PTR [rbp-0x60]
+=> 0x000055555555531f:	movsx  edx,al
+al a -> 0 (position in string)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x53]
+=> 0x0000555555555326:	movsx  eax,al
+al n -> 13 (position in string)
+=> 0x0000555555555329:	mov    esi,edx
+=> 0x000055555555532b:	mov    edi,eax
+=> 0x000055555555532d:	call   0x55555555553b
+=> 0x0000555555555332:	mov    esi,r12d
+=> 0x0000555555555335:	mov    edi,eax
+=> 0x0000555555555337:	call   0x55555555553b
+=> 0x000055555555533c:	mov    esi,ebx
+=> 0x000055555555533e:	mov    edi,eax
+=> 0x0000555555555340:	call   0x5555555555b8
+=> 0x0000555555555345:	cmp    eax,0x50
+=> 0x0000555555555348:	sete   al
+=> 0x000055555555534b:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555314:	and    eax,edx
+=> 0x0000555555555316:	test   eax,eax
+=> 0x0000555555555318:	setne  al
+=> 0x000055555555531b:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555531e:	movzx  eax,BYTE PTR [rbp-0x4a]
+=> 0x0000555555555322:	movsx  ebx,al
+al w -> 22 (position in string)
+=> 0x0000555555555325:	movzx  eax,BYTE PTR [rbp-0x5a]
+=> 0x0000555555555329:	movsx  r12d,al
+al g -> 6 (position in string)
+=> 0x000055555555532d:	movzx  eax,BYTE PTR [rbp-0x54]
+=> 0x0000555555555331:	movsx  edx,al
+al m -> 12 (position in string)
+=> 0x0000555555555334:	movzx  eax,BYTE PTR [rbp-0x5c]
+=> 0x0000555555555338:	movsx  eax,al
+al e -> 4 (position in string)
+=> 0x000055555555533b:	mov    esi,edx
+=> 0x000055555555533d:	mov    edi,eax
+=> 0x000055555555533f:	call   0x555555555381
+=> 0x0000555555555344:	mov    esi,r12d
+=> 0x0000555555555347:	mov    edi,eax
+=> 0x0000555555555349:	call   0x5555555556c8
+=> 0x000055555555534e:	mov    esi,ebx
+=> 0x0000555555555310:	mov    edi,eax
+=> 0x0000555555555312:	call   0x5555555556c8
+=> 0x0000555555555317:	cmp    eax,0x8c
+=> 0x000055555555531c:	sete   al
+=> 0x000055555555531f:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555326:	and    eax,edx
+=> 0x0000555555555328:	test   eax,eax
+=> 0x000055555555532a:	setne  al
+=> 0x000055555555532d:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555330:	movzx  eax,BYTE PTR [rbp-0x5a]
+=> 0x0000555555555334:	movsx  ebx,al
+al g -> 6 (position in string)
+=> 0x0000555555555337:	movzx  eax,BYTE PTR [rbp-0x5d]
+=> 0x000055555555533b:	movsx  r12d,al
+al d -> 3 (position in string)
+=> 0x000055555555533f:	movzx  eax,BYTE PTR [rbp-0x4d]
+=> 0x0000555555555343:	movsx  edx,al
+al t -> 19 (position in string)
+=> 0x0000555555555346:	movzx  eax,BYTE PTR [rbp-0x4f]
+=> 0x000055555555534a:	movsx  eax,al
+al r -> 17 (position in string)
+=> 0x000055555555534d:	mov    esi,edx
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	mov    edi,eax
+=> 0x0000555555555312:	call   0x555555555401
+=> 0x0000555555555317:	mov    esi,r12d
+=> 0x000055555555531a:	mov    edi,eax
+=> 0x000055555555531c:	call   0x5555555555b8
+=> 0x0000555555555321:	mov    esi,ebx
+=> 0x0000555555555323:	mov    edi,eax
+=> 0x0000555555555325:	call   0x5555555555b8
+=> 0x000055555555532a:	test   eax,eax
+=> 0x000055555555532c:	sete   al
+=> 0x000055555555532f:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555332:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555336:	and    eax,edx
+=> 0x0000555555555338:	test   eax,eax
+=> 0x000055555555533a:	setne  al
+=> 0x000055555555533d:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555340:	movzx  eax,BYTE PTR [rbp-0x5b]
+=> 0x0000555555555344:	movsx  ebx,al
+al f -> 5 (position in string)
+=> 0x0000555555555347:	movzx  eax,BYTE PTR [rbp-0x4e]
+=> 0x000055555555534b:	movsx  r12d,al
+al s -> 18 (position in string)
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x5e]
+=> 0x0000555555555314:	movsx  edx,al
+al c -> 2 (position in string)
+=> 0x0000555555555317:	movzx  eax,BYTE PTR [rbp-0x5d]
+=> 0x000055555555531b:	movsx  eax,al
+al d -> 3 (position in string)
+=> 0x000055555555531e:	mov    esi,edx
+=> 0x0000555555555320:	mov    edi,eax
+=> 0x0000555555555322:	call   0x5555555556c8
+=> 0x0000555555555327:	mov    esi,r12d
+=> 0x000055555555532a:	mov    edi,eax
+=> 0x000055555555532c:	call   0x555555555381
+=> 0x0000555555555331:	mov    esi,ebx
+=> 0x0000555555555333:	mov    edi,eax
+=> 0x0000555555555335:	call   0x55555555553b
+=> 0x000055555555533a:	cmp    eax,0x19a0
+=> 0x000055555555533f:	sete   al
+=> 0x0000555555555342:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555345:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555349:	and    eax,edx
+=> 0x000055555555534b:	test   eax,eax
+=> 0x000055555555534d:	setne  al
+=> 0x0000555555555310:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555313:	movzx  eax,BYTE PTR [rbp-0x52]
+=> 0x0000555555555317:	movsx  ebx,al
+al o -> 14 (position in string)
+=> 0x000055555555531a:	movzx  eax,BYTE PTR [rbp-0x5a]
+=> 0x000055555555531e:	movsx  r12d,al
+al g -> 6 (position in string)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x60]
+=> 0x0000555555555326:	movsx  edx,al
+al a -> 0 (position in string)
+=> 0x0000555555555329:	movzx  eax,BYTE PTR [rbp-0x4e]
+=> 0x000055555555532d:	movsx  eax,al
+al s -> 18 (position in string)
+=> 0x0000555555555330:	mov    esi,edx
+=> 0x0000555555555332:	mov    edi,eax
+=> 0x0000555555555334:	call   0x55555555553b
+=> 0x0000555555555339:	mov    esi,r12d
+=> 0x000055555555533c:	mov    edi,eax
+=> 0x000055555555533e:	call   0x5555555555b8
+=> 0x0000555555555343:	mov    esi,ebx
+=> 0x0000555555555345:	mov    edi,eax
+=> 0x0000555555555347:	call   0x555555555381
+=> 0x000055555555534c:	cmp    eax,0x40
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	sete   al
+=> 0x0000555555555313:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555316:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x000055555555531a:	and    eax,edx
+=> 0x000055555555531c:	test   eax,eax
+=> 0x000055555555531e:	setne  al
+=> 0x0000555555555321:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555324:	movzx  eax,BYTE PTR [rbp-0x5b]
+=> 0x0000555555555328:	movsx  ebx,al
+al f -> 5 (position in string)
+=> 0x000055555555532b:	movzx  eax,BYTE PTR [rbp-0x5c]
+=> 0x000055555555532f:	movsx  r12d,al
+al e -> 4 (position in string)
+=> 0x0000555555555333:	movzx  eax,BYTE PTR [rbp-0x5e]
+=> 0x0000555555555337:	movsx  edx,al
+al c -> 2 (position in string)
+=> 0x000055555555533a:	movzx  eax,BYTE PTR [rbp-0x5e]
+=> 0x000055555555533e:	movsx  eax,al
+al c -> 2 (position in string)
+=> 0x0000555555555341:	mov    esi,edx
+=> 0x0000555555555343:	mov    edi,eax
+=> 0x0000555555555345:	call   0x5555555555b8
+=> 0x000055555555534a:	mov    esi,r12d
+=> 0x000055555555534d:	mov    edi,eax
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	call   0x55555555564a
+=> 0x0000555555555315:	mov    esi,ebx
+=> 0x0000555555555317:	mov    edi,eax
+=> 0x0000555555555319:	call   0x5555555555b8
+=> 0x000055555555531e:	cmp    eax,0x52
+=> 0x0000555555555321:	sete   al
+=> 0x0000555555555324:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555327:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x000055555555532b:	and    eax,edx
+=> 0x000055555555532d:	test   eax,eax
+=> 0x000055555555532f:	setne  al
+=> 0x0000555555555332:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555335:	movzx  eax,BYTE PTR [rbp-0x51]
+=> 0x0000555555555339:	movsx  ebx,al
+al p -> 15 (position in string)
+=> 0x000055555555533c:	movzx  eax,BYTE PTR [rbp-0x54]
+=> 0x0000555555555340:	movsx  r12d,al
+al m -> 12 (position in string)
+=> 0x0000555555555344:	movzx  eax,BYTE PTR [rbp-0x57]
+=> 0x0000555555555348:	movsx  edx,al
+al j -> 9 (position in string)
+=> 0x000055555555534b:	movzx  eax,BYTE PTR [rbp-0x60]
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movsx  eax,al
+al a -> 0 (position in string)
+=> 0x0000555555555313:	mov    esi,edx
+=> 0x0000555555555315:	mov    edi,eax
+=> 0x0000555555555317:	call   0x5555555556c8
+=> 0x000055555555531c:	mov    esi,r12d
+=> 0x000055555555531f:	mov    edi,eax
+=> 0x0000555555555321:	call   0x55555555553b
+=> 0x0000555555555326:	mov    esi,ebx
+=> 0x0000555555555328:	mov    edi,eax
+=> 0x000055555555532a:	call   0x555555555401
+=> 0x000055555555532f:	cmp    eax,0x7cc
+=> 0x0000555555555334:	sete   al
+=> 0x0000555555555337:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555533a:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x000055555555533e:	and    eax,edx
+=> 0x0000555555555340:	test   eax,eax
+=> 0x0000555555555342:	setne  al
+=> 0x0000555555555345:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555348:	movzx  eax,BYTE PTR [rbp-0x55]
+=> 0x000055555555534c:	movsx  ebx,al
+al l -> 11 (position in string)
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x4b]
+=> 0x0000555555555314:	movsx  r12d,al
+al v -> 21 (position in string)
+=> 0x0000555555555318:	movzx  eax,BYTE PTR [rbp-0x54]
+=> 0x000055555555531c:	movsx  edx,al
+al m -> 12 (position in string)
+=> 0x000055555555531f:	movzx  eax,BYTE PTR [rbp-0x4f]
+=> 0x0000555555555323:	movsx  eax,al
+al r -> 17 (position in string)
+=> 0x0000555555555326:	mov    esi,edx
+=> 0x0000555555555328:	mov    edi,eax
+=> 0x000055555555532a:	call   0x55555555553b
+=> 0x000055555555532f:	mov    esi,r12d
+=> 0x0000555555555332:	mov    edi,eax
+=> 0x0000555555555334:	call   0x555555555381
+=> 0x0000555555555339:	mov    esi,ebx
+=> 0x000055555555533b:	mov    edi,eax
+=> 0x000055555555533d:	call   0x5555555556c8
+=> 0x0000555555555342:	cmp    eax,0x21f4
+=> 0x0000555555555347:	sete   al
+=> 0x000055555555534a:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555534d:	nop
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555314:	and    eax,edx
+=> 0x0000555555555316:	test   eax,eax
+=> 0x0000555555555318:	setne  al
+=> 0x000055555555531b:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555531e:	movzx  eax,BYTE PTR [rbp-0x4f]
+=> 0x0000555555555322:	movsx  ebx,al
+al r -> 17 (position in string)
+=> 0x0000555555555325:	movzx  eax,BYTE PTR [rbp-0x4a]
+=> 0x0000555555555329:	movsx  r12d,al
+al w -> 22 (position in string)
+=> 0x000055555555532d:	movzx  eax,BYTE PTR [rbp-0x54]
+=> 0x0000555555555331:	movsx  edx,al
+al m -> 12 (position in string)
+=> 0x0000555555555334:	movzx  eax,BYTE PTR [rbp-0x4a]
+=> 0x0000555555555338:	movsx  eax,al
+al w -> 22 (position in string)
+=> 0x000055555555533b:	mov    esi,edx
+=> 0x000055555555533d:	mov    edi,eax
+=> 0x000055555555533f:	call   0x5555555555b8
+=> 0x0000555555555344:	mov    esi,r12d
+=> 0x0000555555555347:	mov    edi,eax
+=> 0x0000555555555349:	call   0x555555555381
+=> 0x000055555555534e:	mov    esi,ebx
+=> 0x0000555555555310:	mov    edi,eax
+=> 0x0000555555555312:	call   0x5555555556c8
+=> 0x0000555555555317:	cmp    eax,0xad
+=> 0x000055555555531c:	sete   al
+=> 0x000055555555531f:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555326:	and    eax,edx
+=> 0x0000555555555328:	test   eax,eax
+=> 0x000055555555532a:	setne  al
+=> 0x000055555555532d:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555330:	movzx  eax,BYTE PTR [rbp-0x4f]
+=> 0x0000555555555334:	movsx  ebx,al
+al r -> 17 (position in string)
+=> 0x0000555555555337:	movzx  eax,BYTE PTR [rbp-0x49]
+=> 0x000055555555533b:	movsx  r12d,al
+al x -> 23 (position in string)
+=> 0x000055555555533f:	movzx  eax,BYTE PTR [rbp-0x50]
+=> 0x0000555555555343:	movsx  edx,al
+al q -> 16 (position in string)
+=> 0x0000555555555346:	movzx  eax,BYTE PTR [rbp-0x49]
+=> 0x000055555555534a:	movsx  eax,al
+al x -> 23 (position in string)
+=> 0x000055555555534d:	mov    esi,edx
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	mov    edi,eax
+=> 0x0000555555555312:	call   0x5555555556c8
+=> 0x0000555555555317:	mov    esi,r12d
+=> 0x000055555555531a:	mov    edi,eax
+=> 0x000055555555531c:	call   0x5555555555b8
+=> 0x0000555555555321:	mov    esi,ebx
+=> 0x0000555555555323:	mov    edi,eax
+=> 0x0000555555555325:	call   0x55555555553b
+=> 0x000055555555532a:	cmp    eax,0x69
+=> 0x000055555555532d:	sete   al
+=> 0x0000555555555330:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555333:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555337:	and    eax,edx
+=> 0x0000555555555339:	test   eax,eax
+=> 0x000055555555533b:	setne  al
+=> 0x000055555555533e:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555341:	movzx  eax,BYTE PTR [rbp-0x4b]
+=> 0x0000555555555345:	movsx  ebx,al
+al v -> 21 (position in string)
+=> 0x0000555555555348:	movzx  eax,BYTE PTR [rbp-0x5f]
+=> 0x000055555555534c:	movsx  r12d,al
+al b -> 1 (position in string)
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x60]
+=> 0x0000555555555314:	movsx  edx,al
+al a -> 0 (position in string)
+=> 0x0000555555555317:	movzx  eax,BYTE PTR [rbp-0x5e]
+=> 0x000055555555531b:	movsx  eax,al
+al c -> 2 (position in string)
+=> 0x000055555555531e:	mov    esi,edx
+=> 0x0000555555555320:	mov    edi,eax
+=> 0x0000555555555322:	call   0x555555555401
+=> 0x0000555555555327:	mov    esi,r12d
+=> 0x000055555555532a:	mov    edi,eax
+=> 0x000055555555532c:	call   0x5555555555b8
+=> 0x0000555555555331:	mov    esi,ebx
+=> 0x0000555555555333:	mov    edi,eax
+=> 0x0000555555555335:	call   0x555555555401
+=> 0x000055555555533a:	cmp    eax,0xffffffbf
+=> 0x000055555555533d:	sete   al
+=> 0x0000555555555340:	movzx  edx,al
+=> 0x0000555555555343:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555347:	and    eax,edx
+=> 0x0000555555555349:	test   eax,eax
+=> 0x000055555555534b:	setne  al
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555313:	movzx  eax,BYTE PTR [rbp-0x5e]
+=> 0x0000555555555317:	movsx  ebx,al
+al c -> 2 (position in string)
+=> 0x000055555555531a:	movzx  eax,BYTE PTR [rbp-0x60]
+=> 0x000055555555531e:	movsx  r12d,al
+al a -> 0 (position in string)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x4a]
+=> 0x0000555555555326:	movsx  edx,al
+al w -> 22 (position in string)
+=> 0x0000555555555329:	movzx  eax,BYTE PTR [rbp-0x52]
+=> 0x000055555555532d:	movsx  eax,al
+al o -> 14 (position in string)
+=> 0x0000555555555330:	mov    esi,edx
+=> 0x0000555555555332:	mov    edi,eax
+=> 0x0000555555555334:	call   0x55555555553b
+=> 0x0000555555555339:	mov    esi,r12d
+=> 0x000055555555533c:	mov    edi,eax
+=> 0x000055555555533e:	call   0x5555555556c8
+=> 0x0000555555555343:	mov    esi,ebx
+=> 0x0000555555555345:	mov    edi,eax
+=> 0x0000555555555347:	call   0x55555555553b
+=> 0x000055555555534c:	nop
+=> 0x000055555555534d:	nop
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	cmp    eax,0x73f8c
+=> 0x0000555555555315:	sete   al
+=> 0x0000555555555318:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555531b:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x000055555555531f:	and    eax,edx
+=> 0x0000555555555321:	test   eax,eax
+=> 0x0000555555555323:	setne  al
+=> 0x0000555555555326:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555329:	movzx  eax,BYTE PTR [rbp-0x4c]
+=> 0x000055555555532d:	movsx  ebx,al
+al u -> 20 (position in string)
+=> 0x0000555555555330:	movzx  eax,BYTE PTR [rbp-0x4e]
+=> 0x0000555555555334:	movsx  r12d,al
+al s -> 18 (position in string)
+=> 0x0000555555555338:	movzx  eax,BYTE PTR [rbp-0x51]
+=> 0x000055555555533c:	movsx  edx,al
+al p -> 15 (position in string)
+=> 0x000055555555533f:	movzx  eax,BYTE PTR [rbp-0x5c]
+=> 0x0000555555555343:	movsx  eax,al
+al e -> 4 (position in string)
+=> 0x0000555555555346:	mov    esi,edx
+=> 0x0000555555555348:	mov    edi,eax
+=> 0x000055555555534a:	call   0x555555555401
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	mov    esi,r12d
+=> 0x0000555555555313:	mov    edi,eax
+=> 0x0000555555555315:	call   0x55555555553b
+=> 0x000055555555531a:	mov    esi,ebx
+=> 0x000055555555531c:	mov    edi,eax
+=> 0x000055555555531e:	call   0x555555555401
+=> 0x0000555555555323:	cmp    eax,0x35b
+=> 0x0000555555555328:	sete   al
+=> 0x000055555555532b:	movzx  edx,al
+=> 0x000055555555532e:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555332:	and    eax,edx
+=> 0x0000555555555334:	test   eax,eax
+=> 0x0000555555555336:	setne  al
+=> 0x0000555555555339:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555533c:	movzx  eax,BYTE PTR [rbp-0x5f]
+=> 0x0000555555555340:	movsx  ebx,al
+al b -> 1 (position in string)
+=> 0x0000555555555343:	movzx  eax,BYTE PTR [rbp-0x5b]
+=> 0x0000555555555347:	movsx  r12d,al
+al f -> 5 (position in string)
+=> 0x000055555555534b:	movzx  eax,BYTE PTR [rbp-0x58]
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movsx  edx,al
+al i -> 8 (position in string)
+=> 0x0000555555555313:	movzx  eax,BYTE PTR [rbp-0x5f]
+=> 0x0000555555555317:	movsx  eax,al
+al b -> 1 (position in string)
+=> 0x000055555555531a:	mov    esi,edx
+=> 0x000055555555531c:	mov    edi,eax
+=> 0x000055555555531e:	call   0x555555555401
+=> 0x0000555555555323:	mov    esi,r12d
+=> 0x0000555555555326:	mov    edi,eax
+=> 0x0000555555555328:	call   0x55555555553b
+=> 0x000055555555532d:	mov    esi,ebx
+=> 0x000055555555532f:	mov    edi,eax
+=> 0x0000555555555331:	call   0x55555555553b
+=> 0x0000555555555336:	cmp    eax,0x3102
+=> 0x000055555555533b:	sete   al
+=> 0x000055555555533e:	movzx  edx,al
+=> 0x0000555555555341:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555345:	and    eax,edx
+=> 0x0000555555555347:	test   eax,eax
+=> 0x0000555555555349:	setne  al
+=> 0x000055555555534c:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x5a]
+=> 0x0000555555555314:	movsx  ebx,al
+al g -> 6 (position in string)
+=> 0x0000555555555317:	movzx  eax,BYTE PTR [rbp-0x5d]
+=> 0x000055555555531b:	movsx  r12d,al
+al d -> 3 (position in string)
+=> 0x000055555555531f:	movzx  eax,BYTE PTR [rbp-0x50]
+=> 0x0000555555555323:	movsx  edx,al
+al q -> 16 (position in string)
+=> 0x0000555555555326:	movzx  eax,BYTE PTR [rbp-0x52]
+=> 0x000055555555532a:	movsx  eax,al
+al o -> 14 (position in string)
+=> 0x000055555555532d:	mov    esi,edx
+=> 0x000055555555532f:	mov    edi,eax
+=> 0x0000555555555331:	call   0x555555555401
+=> 0x0000555555555336:	mov    esi,r12d
+=> 0x0000555555555339:	mov    edi,eax
+=> 0x000055555555533b:	call   0x555555555381
+=> 0x0000555555555340:	mov    esi,ebx
+=> 0x0000555555555342:	mov    edi,eax
+=> 0x0000555555555344:	call   0x555555555401
+=> 0x0000555555555349:	cmp    eax,0xffffffda
+=> 0x000055555555534c:	sete   al
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  edx,al
+=> 0x0000555555555313:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555317:	and    eax,edx
+=> 0x0000555555555319:	test   eax,eax
+=> 0x000055555555531b:	setne  al
+=> 0x000055555555531e:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555321:	movzx  eax,BYTE PTR [rbp-0x55]
+=> 0x0000555555555325:	movsx  ebx,al
+al l -> 11 (position in string)
+=> 0x0000555555555328:	movzx  eax,BYTE PTR [rbp-0x4b]
+=> 0x000055555555532c:	movsx  r12d,al
+al v -> 21 (position in string)
+=> 0x0000555555555330:	movzx  eax,BYTE PTR [rbp-0x4b]
+=> 0x0000555555555334:	movsx  edx,al
+al v -> 21 (position in string)
+=> 0x0000555555555337:	movzx  eax,BYTE PTR [rbp-0x49]
+=> 0x000055555555533b:	movsx  eax,al
+al x -> 23 (position in string)
+=> 0x000055555555533e:	mov    esi,edx
+=> 0x0000555555555340:	mov    edi,eax
+=> 0x0000555555555342:	call   0x5555555556c8
+=> 0x0000555555555347:	mov    esi,r12d
+=> 0x000055555555534a:	mov    edi,eax
+=> 0x000055555555534c:	nop
+=> 0x000055555555534d:	nop
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	call   0x5555555555b8
+=> 0x0000555555555315:	mov    esi,ebx
+=> 0x0000555555555317:	mov    edi,eax
+=> 0x0000555555555319:	call   0x5555555555b8
+=> 0x000055555555531e:	cmp    eax,0x2
+=> 0x0000555555555321:	sete   al
+=> 0x0000555555555324:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555327:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x000055555555532b:	and    eax,edx
+=> 0x000055555555532d:	test   eax,eax
+=> 0x000055555555532f:	setne  al
+=> 0x0000555555555332:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555335:	movzx  eax,BYTE PTR [rbp-0x5a]
+=> 0x0000555555555339:	movsx  ebx,al
+al g -> 6 (position in string)
+=> 0x000055555555533c:	movzx  eax,BYTE PTR [rbp-0x4d]
+=> 0x0000555555555340:	movsx  r12d,al
+al t -> 19 (position in string)
+=> 0x0000555555555344:	movzx  eax,BYTE PTR [rbp-0x53]
+=> 0x0000555555555348:	movsx  edx,al
+al n -> 13 (position in string)
+=> 0x000055555555534b:	movzx  eax,BYTE PTR [rbp-0x49]
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movsx  eax,al
+al x -> 23 (position in string)
+=> 0x0000555555555313:	mov    esi,edx
+=> 0x0000555555555315:	mov    edi,eax
+=> 0x0000555555555317:	call   0x5555555555b8
+=> 0x000055555555531c:	mov    esi,r12d
+=> 0x000055555555531f:	mov    edi,eax
+=> 0x0000555555555321:	call   0x555555555381
+=> 0x0000555555555326:	mov    esi,ebx
+=> 0x0000555555555328:	mov    edi,eax
+=> 0x000055555555532a:	call   0x555555555401
+=> 0x000055555555532f:	cmp    eax,0x63
+=> 0x0000555555555332:	sete   al
+=> 0x0000555555555335:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555338:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x000055555555533c:	and    eax,edx
+=> 0x000055555555533e:	test   eax,eax
+=> 0x0000555555555340:	setne  al
+=> 0x0000555555555343:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555346:	movzx  eax,BYTE PTR [rbp-0x5c]
+=> 0x000055555555534a:	movsx  ebx,al
+al e -> 4 (position in string)
+=> 0x000055555555534d:	nop
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x50]
+=> 0x0000555555555314:	movsx  r12d,al
+al q -> 16 (position in string)
+=> 0x0000555555555318:	movzx  eax,BYTE PTR [rbp-0x49]
+=> 0x000055555555531c:	movsx  edx,al
+al x -> 23 (position in string)
+=> 0x000055555555531f:	movzx  eax,BYTE PTR [rbp-0x55]
+=> 0x0000555555555323:	movsx  eax,al
+al l -> 11 (position in string)
+=> 0x0000555555555326:	mov    esi,edx
+=> 0x0000555555555328:	mov    edi,eax
+=> 0x000055555555532a:	call   0x555555555381
+=> 0x000055555555532f:	mov    esi,r12d
+=> 0x0000555555555332:	mov    edi,eax
+=> 0x0000555555555334:	call   0x5555555556c8
+=> 0x0000555555555339:	mov    esi,ebx
+=> 0x000055555555533b:	mov    edi,eax
+=> 0x000055555555533d:	call   0x5555555556c8
+=> 0x0000555555555342:	cmp    eax,0xd9
+=> 0x0000555555555347:	sete   al
+=> 0x000055555555534a:	movzx  edx,al
+al ? (invalid)
+=> 0x000055555555534d:	nop
+=> 0x000055555555534e:	nop
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555314:	and    eax,edx
+=> 0x0000555555555316:	test   eax,eax
+=> 0x0000555555555318:	setne  al
+=> 0x000055555555531b:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x000055555555531e:	movzx  eax,BYTE PTR [rbp-0x58]
+=> 0x0000555555555322:	movsx  ebx,al
+al i -> 8 (position in string)
+=> 0x0000555555555325:	movzx  eax,BYTE PTR [rbp-0x5d]
+=> 0x0000555555555329:	movsx  r12d,al
+al d -> 3 (position in string)
+=> 0x000055555555532d:	movzx  eax,BYTE PTR [rbp-0x53]
+=> 0x0000555555555331:	movsx  edx,al
+al n -> 13 (position in string)
+=> 0x0000555555555334:	movzx  eax,BYTE PTR [rbp-0x53]
+=> 0x0000555555555338:	movsx  eax,al
+al n -> 13 (position in string)
+=> 0x000055555555533b:	mov    esi,edx
+=> 0x000055555555533d:	mov    edi,eax
+=> 0x000055555555533f:	call   0x55555555553b
+=> 0x0000555555555344:	mov    esi,r12d
+=> 0x0000555555555347:	mov    edi,eax
+=> 0x0000555555555349:	call   0x5555555556c8
+=> 0x000055555555534e:	mov    esi,ebx
+=> 0x0000555555555310:	mov    edi,eax
+=> 0x0000555555555312:	call   0x555555555381
+=> 0x0000555555555317:	cmp    eax,0x3562
+=> 0x000055555555531c:	sete   al
+=> 0x000055555555531f:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555322:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555326:	and    eax,edx
+=> 0x0000555555555328:	test   eax,eax
+=> 0x000055555555532a:	setne  al
+=> 0x000055555555532d:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555330:	movzx  eax,BYTE PTR [rbp-0x58]
+=> 0x0000555555555334:	movsx  ebx,al
+al i -> 8 (position in string)
+=> 0x0000555555555337:	movzx  eax,BYTE PTR [rbp-0x5f]
+=> 0x000055555555533b:	movsx  r12d,al
+al b -> 1 (position in string)
+=> 0x000055555555533f:	movzx  eax,BYTE PTR [rbp-0x51]
+=> 0x0000555555555343:	movsx  edx,al
+al p -> 15 (position in string)
+=> 0x0000555555555346:	movzx  eax,BYTE PTR [rbp-0x4b]
+=> 0x000055555555534a:	movsx  eax,al
+al v -> 21 (position in string)
+=> 0x000055555555534d:	mov    esi,edx
+=> 0x000055555555534f:	nop
+=> 0x0000555555555310:	mov    edi,eax
+=> 0x0000555555555312:	call   0x5555555555b8
+=> 0x0000555555555317:	mov    esi,r12d
+=> 0x000055555555531a:	mov    edi,eax
+=> 0x000055555555531c:	call   0x5555555556c8
+=> 0x0000555555555321:	mov    esi,ebx
+=> 0x0000555555555323:	mov    edi,eax
+=> 0x0000555555555325:	call   0x55555555564a
+=> 0x000055555555532a:	cmp    eax,0x71
+=> 0x000055555555532d:	sete   al
+=> 0x0000555555555330:	movzx  edx,al
+al ? (invalid)
+=> 0x0000555555555333:	movzx  eax,BYTE PTR [rbp-0x11]
+=> 0x0000555555555337:	and    eax,edx
+=> 0x0000555555555339:	test   eax,eax
+=> 0x000055555555533b:	setne  al
+=> 0x000055555555533e:	mov    BYTE PTR [rbp-0x11],al
+al ? (invalid)
+=> 0x0000555555555341:	movzx  eax,BYTE PTR [rbp-0x55]
+=> 0x0000555555555345:	movsx  ebx,al
+al l -> 11 (position in string)
+=> 0x0000555555555348:	movzx  eax,BYTE PTR [rbp-0x5e]
+=> 0x000055555555534c:	movsx  r12d,al
+al c -> 2 (position in string)
+=> 0x0000555555555310:	movzx  eax,BYTE PTR [rbp-0x51]
+=> 0x0000555555555314:	movsx  edx,al
+al p -> 15 (position in string)
+=> 0x0000555555555317:	movzx  eax,BYTE PTR [rbp-0x52]
+=> 0x000055555555531b:	movsx  eax,al
+al o -> 14 (position in string)
+=> 0x000055555555531e:	mov    esi,edx
+=> 0x0000555555555320:	mov    edi,eax
+=> 0x0000555555555322:	call   0x5555555555b8
+=> 0x0000555555555327:	mov    esi,r12d
+=> 0x000055555555532a:	mov    edi,eax
+=> 0x000055555555532c:	call   0x555555555401
+=> 0x0000555555555331:	mov    esi,ebx
+=> 0x0000555555555333:	mov    edi,eax
+=> 0x0000555555555335:	call   0x5555555556c8
+=> 0x000055555555533a:	cmp    eax,0xffffffa0
